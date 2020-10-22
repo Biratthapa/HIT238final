@@ -1,0 +1,28 @@
+.interfaceg img {
+  width : 150px;
+}
+.interfacep img {
+  width : 150px;
+}
+.imagescan {
+  width : 120px;
+}
+.imagessub{
+  width: 50px;
+}
+.productseller{
+  background: #f0e9e6;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.header {
+  background-color: #dc3545;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.container img{
+  width : 150px;
+}

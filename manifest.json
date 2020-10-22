@@ -1,0 +1,21 @@
+{
+  "name": "Price Comparison",
+  "short_name": "Pricecomparison",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFE895",
+  "theme_color": "#FFE1c4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/icon192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/icon512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

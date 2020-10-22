@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Price comparison app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="manifest" href="manifest.json">
+        <script src="js/catalogue.js"></script>
+        <script src="js/product.js"></script>
+        <script src="js/serviceworker.js"></script>
+
+
+    </head>
+    <body>
+
+      <div class="header"><h1>Compare Price</h1></div>
+      <div class="interfacep">
+      <a href="index.html"><h2>Back</h2></a>
+      <div class="container">
+
+      	<div class="row mt-2 pb-3">
+          <div class="col-sm-4 ml-md-auto">
+            <img src="img/guitars/yamaha pacifica.png" alt="Yamaha Pacifica">
+              <div class="card-body">
+              <h4 class="card-title text-center text-info">Yamaha Pacifica</h4>
+            </div>
+           <div class="card-body">
+
+              <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('Yamaha Pacifica')">Check Prices</button>
+            </div>
+          </div>
+          <div class="col-sm-4 ml-md-auto">
+            <img src="img/guitars/fender stratocaster.png" alt="fender stratocaster">
+              <div class="card-body">
+              <h4 class="card-title text-center text-info">Fender Stratocaster</h4>
+            </div>
+           <div class="card-body">
+
+              <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('Fender Stratocaster')">Check Prices</button>
+            </div>
+          </div>
+
+
+          <div class="col-sm-4 ml-md-auto">
+          <img src="img/guitars/prs se custom.png" alt="PRS SE">
+            <div class="card-body">
+            <h4 class="card-title text-center text-info">PRS SE custom</h4>
+          </div>
+          <div class="card-body">
+
+            <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('PRS SE custom')">Check Prices</button>
+          </div>
+        </div>
+      </div>
+
+     <div class="row mt-2 pb-3">
+           <div class="col-sm-4 ml-md-auto">
+           <img src="img/guitars/schecter.png" alt="schecter">
+             <div class="card-body">
+             <h4 class="card-title text-center text-info">Schecter</h4>
+           </div>
+          <div class="card-body">
+
+            <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('schecter')">Check Prices</button>
+          </div>
+        </div>
+        <div class="col-sm-4 ml-md-auto">
+        <img src="img/guitars/jackson.png" alt="jackson">
+          <div class="card-body">
+            <h4 class="card-title text-center text-info">Jackson</h4>
+           </div>
+          <div class="card-body">
+
+             <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('Jackson')">Check Prices</button>
+           </div>
+        </div>
+        <div class="col-sm-4 ml-md-auto">
+        <img src="img/guitars/strandberg.png" alt="Strandberg">
+          <div class="card-body">
+            <h4 class="card-title text-center text-info">Strandberg</h4>
+           </div>
+          <div class="card-body">
+
+             <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('Strandberg')">Check Prices</button>
+           </div>
+        </div>
+        <div class="col-sm-4 ml-md-auto">
+        <img src="img/guitars/gibson.png" alt="Gibson">
+          <div class="card-body">
+            <h4 class="card-title text-center text-info">Gibson</h4>
+           </div>
+          <div class="card-body">
+
+             <button class="btn btn-danger btn-block addItemBtn" onclick="Catalogue.productcards('Gibson')">Check Prices</button>
+           </div>
+        </div>
+
+
+        </div>
+
+      </div>
+
+
+    </body>
+</html>
